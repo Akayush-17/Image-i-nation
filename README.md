@@ -54,6 +54,14 @@ The application uses JavaScript to fetch cat images from the [Cat API](https://a
 
 ![New Cat Image Loaded](./public/assets/pg3.png)
 
+## Hard Implementation
+
+![Cat Image Viewer Interface](./public/assets/loader1.png)
+
+![New Cat Image Loaded](./public/assets/loader2.png)
+
+
+
 
 
 
