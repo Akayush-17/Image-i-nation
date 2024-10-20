@@ -19,7 +19,7 @@ const MainComponent = () => {
     if (node) observer.current.observe(node);
   }, [loading]);
 
-  const fetchCats = async () => {
+  const fetchCats = useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
@@ -30,11 +30,11 @@ const MainComponent = () => {
       setError('Failed to fetch cat images. Please try again.');
       setLoading(false);
     }
-  };
+  }, [page]);
 
   useEffect(() => {
     fetchCats();
-  }, [page]);
+  }, [fetchCats]);
 
   return (
     <div className="container mx-auto p-4">
