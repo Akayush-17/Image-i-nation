@@ -46,6 +46,14 @@ The application uses JavaScript to fetch cat images from the [Cat API](https://a
 
 ![New Cat Image Loaded](./public/assets/easymob.png)
 
+## Medium Implementation
+
+![Cat Image Viewer Interface](./public/assets/pg1.png)
+
+![New Cat Image Loaded](./public/assets/pg2.png)
+
+![New Cat Image Loaded](./public/assets/pg3.png)
+
 
 
 
